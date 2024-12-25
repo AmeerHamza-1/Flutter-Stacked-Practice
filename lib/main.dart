@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:st_management/app/app.locator.dart';
 import 'package:st_management/home/home.dart';
 
-void main() {
+void main() async {
+  await setupLocator();
   runApp(const MyApp());
 }
 
